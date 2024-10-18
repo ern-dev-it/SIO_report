@@ -6,7 +6,7 @@ def main():
     # Dropdown for the first selection
     option1 = st.selectbox(
         'Select Option 1:',
-        ['Option 1A', 'Option 1B', 'Option 1C']
+        ['Standard 35mm', 'Fully Sealed 37mm']
     )
 
     # Dropdown for the second selection

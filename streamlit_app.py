@@ -1,12 +1,12 @@
 import streamlit as st
 
 def main():
-    st.title("Simple Web Form")
+    st.title("PAFD Configurator")
 
     # Dropdown for the first selection
     option1 = st.selectbox(
-        'Select Option 1:',
-        ['Standard 35mm', 'Fully Sealed 37mm']
+        'Door Thickness:',
+        ['Standard', 'Fully Sealed',]
     )
 
     # Dropdown for the second selection
